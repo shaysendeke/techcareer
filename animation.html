@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 500px;
+            height: 250px;
+            background-color: blue;
+            margin: 10px;
+            border:black 10px solid;
+        }
+
+        main #a:hover{
+            transform: skewX(22.5deg);
+            transform: skewY(22.5deg);
+            transition-duration: 3.5s;
+            transition-timing-function: ease-out;
+        }
+
+        main #b:hover{
+            opacity: 50%;
+            transition-timing-function: ease-out;
+            transition-timing-function: ease-in;
+            transition-duration: 3.5s;
+
+        }
+
+        main #c:hover:hover{
+            transform: rotate(90deg);
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            border: solid 3px black;
+        }
+
+        main #d:hover{
+            transform: rotate(90deg);
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            background-color:crimson;
+            border: solid 3px black;
+        }
+    </style>
+</head>
+<body>
+    <head>
+        <h1>this animation lesson</h1> 
+    </head>
+    <main>
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+      
+    </main>
+    <footer>
+        the lesson has ended. bye...
+    </footer>
+</body>
+</html>
